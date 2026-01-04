@@ -22,3 +22,4 @@ contract Bereitstellen {
         emit ColorChanged(msg.sender, _yourNewColor);
     }
 }
+

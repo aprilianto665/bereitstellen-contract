@@ -4,8 +4,8 @@
   "description": "Bereitstellen smart contract deployment on Sepolia",
   "scripts": {
     "test": "hardhat test",
-    "deploy": "hardhat run scripts/4_deploy.js --network sepolia",
-    "interact": "hardhat run scripts/4_interact.js --network sepolia"
+    "deploy": "hardhat run scripts/deploy.js --network sepolia",
+    "interact": "hardhat run scripts/interact.js --network sepolia"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
